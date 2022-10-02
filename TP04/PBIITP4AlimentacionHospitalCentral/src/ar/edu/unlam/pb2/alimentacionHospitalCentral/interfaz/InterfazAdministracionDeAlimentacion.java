@@ -382,7 +382,7 @@ public class InterfazAdministracionDeAlimentacion {
 		int opcion = 0;
 		
 		do {
-			System.out.println("Elija un Grupo de Alimentos: ");
+			System.out.println("Elija una unidad de medida: ");
 			System.out.println("1 - Pieza");
 			System.out.println("2 - gr");
 			System.out.println("3 - kg");
