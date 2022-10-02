@@ -89,7 +89,7 @@ public class InterfazAdministracionDeAlimentacion {
 	}
 	
 	private static char seleccionarUnaOpcion() {
-		char opcion = '\000';
+		char opcion = '\u0000';
 		
 		System.out.println("Bienvenidos al Sistema de Gestión de Alimentación de Pacientes del Hospital General");
 		System.out.println("A - Ingresar un alimento al sistema");
@@ -101,7 +101,7 @@ public class InterfazAdministracionDeAlimentacion {
 		System.out.println("G - Ver opciones de menú para paciente Hipertenso");
 		System.out.println("H - Ver opciones de menú para paciente Oncológicos");
 		System.out.println("I - Ver opciones de menú para paciente Diabético tipo 1");
-		System.out.println("J - Ver opciones de menú para paciente Diabético tipo 9");
+		System.out.println("J - Ver opciones de menú para paciente Diabético tipo 2");
 		System.out.println("S - Salir");
 		
 		opcion = teclado.next().charAt(opcion);
